@@ -541,9 +541,10 @@ nav .fa-solid {
         color: #0BA9E4;
         text-decoration: none;
         font-size: 5vw;
-        line-height: 7vh;
-        width: 7vh;
+        width: 50vh; /* Adjust the width to create a large rectangle button */
         height: 7vh;
+        border: 2px solid whitesmoke; /* Add a 2px white border */
+        border-radius: 5px; /* Use a small value for rounded corners */
         text-align: center;
     }
 
