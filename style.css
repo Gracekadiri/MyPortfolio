@@ -498,6 +498,12 @@ nav .fa-solid {
     .project {
         margin-bottom: 4vh;
     }
+    /* resizing the image*/
+    .project img {
+        width: 100%;
+        border-radius: 1vw;
+        display: block;
+    }
     .project h2{
         margin-top: 2vh;
     }
