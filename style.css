@@ -11,15 +11,15 @@ html {
 
 /* color of the background*/
 body {
-    background: black;
-    color: white;
+    background: #ababab;
+    color: rgb(7, 7, 7);
 }
 
 /* my logo header*/
 #header {
     width: 50%;
     height: 100vh;
-    background-image: url(Images/NameLogo.png);
+    background-image: url(Images/InitialLogo.png);
     background-size: cover;
     background-position: center;
 }
@@ -48,7 +48,7 @@ nav ul li {
 
 /* change the color and size of the icons*/
 nav ul li a {
-    color: #fff;
+    color: #025e80;
     text-decoration: none;
     font-size: 1.6vw;
     position: relative;
@@ -59,7 +59,7 @@ nav ul li a::after {
     content: '';
     width: 100%;
     height: 0.4vh;
-    background: #025e80;
+    background: black;
     position: absolute;
     left: 0;
     bottom: -0.5vh;
@@ -89,7 +89,7 @@ nav ul li a:hover::after {
 
 /* adding color to Judith*/
 .header-text h1 span {
-    color: #fff;
+    color: #025e80;
 }
 
 /*---------------------About Section----------------------------*/
@@ -98,7 +98,7 @@ nav ul li a:hover::after {
 /* adding space between both sections*/
 #about {
     padding: 7.4vh 0;
-    color: #ababab;
+    color: #025e80;
 }
 
 .row {
@@ -129,7 +129,7 @@ nav ul li a:hover::after {
 .sub-title {
     font-size: 5vw;
     font-weight: 600;
-    color: white;
+    color: black;
 }
 
 
@@ -139,7 +139,7 @@ nav ul li a:hover::after {
     /*adds space between the about me header and first summary*/
     font-size: 1.5vw;
     font-weight: 100;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: 3vh;
     /*adds space between both summaries*/
 }
@@ -194,7 +194,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 100%;
-    background: linear-gradient( rgb(51, 50, 50), #025e80  );
+    background: linear-gradient( #025e80, #01445c );
     border-radius: 1vw;
     position: absolute;
     left: 0;
@@ -275,7 +275,7 @@ nav ul li a:hover::after {
 
 .layer1 a {
     margin-top: 2vh;
-    color: rgb(11, 133, 163);
+    color: #025e80;
     text-decoration: none;
     font-size: 2vw;
     line-height: 7vh;
@@ -303,7 +303,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color: #0BA9E4;
+    color: #025e80;
     margin-right: 0.3vw;
     font-size: 1.5vw;
 }
@@ -321,13 +321,13 @@ a {
     text-decoration: none;
     font-size: 2vw;
     margin-right: 0.8vw;
-    color:#0BA9E4;
+    color:#025e80;
     display: inline-block;
     transition: transform 0.5s;
 }
 
 .social-icons a:hover {
-    color: #0BA9E4;
+    color: #025e80;
     transform: translateY(-0.5vh);
 }
 
@@ -419,7 +419,7 @@ nav .fa-solid {
 
     /*creating a right banner for the icons*/
     nav ul {
-        background: #0BA9E4;
+        background: black;
         position: fixed;
         top: 0;
         right: -25vw;
@@ -498,25 +498,19 @@ nav .fa-solid {
     .project {
         margin-bottom: 4vh;
     }
-    /* resizing the image*/
-    .project img {
-        width: 100%;
-        border-radius: 1vw;
-        display: block;
-    }
     .project h2{
         margin-top: 2vh;
     }
     .layer a {
         margin-top: 2vh;
-        color:#0BA9E4;
+        color:#025e80;
         text-decoration: none;
         font-size: 2vw;
         line-height: 3vh;
         background: #fff;
         width: 3vh;
         height: 3vh;
-        border-radius: 25%;
+        border-radius: 50%;
         text-align: center;
     }
 
@@ -538,13 +532,12 @@ nav .fa-solid {
 
     .layer1 a {
         margin-top: 2vh;
-        color: #0BA9E4;
+        color: #025e80;
         text-decoration: none;
         font-size: 5vw;
-        width: 50vh; /* Adjust the width to create a large rectangle button */
+        line-height: 7vh;
+        width: 7vh;
         height: 7vh;
-        border: 2px solid whitesmoke; /* Add a 2px white border */
-        border-radius: 5px; /* Use a small value for rounded corners */
         text-align: center;
     }
 
@@ -570,7 +563,7 @@ nav .fa-solid {
     }
 
     .contact-left p i {
-        color: #0BA9E4;
+        color: #025e80;
         margin-right: 0.3vw;
         font-size: 4vw;
     }
@@ -588,13 +581,13 @@ nav .fa-solid {
         text-decoration: none;
         font-size: 4vw;
         margin-right: 0.8vw;
-        color: #0BA9E4;
+        color: #025e80;
         display: inline-block;
         transition: transform 0.5s;
     }
 
     .social-icons a:hover {
-        color: #0BA9E4;
+        color: #025e80;
         transform: translateY(-0.5vh);
     }
 
@@ -602,7 +595,7 @@ nav .fa-solid {
         margin-top: 2vh;
         display: inline-block;
         padding: 1vh 2vh;
-        background: #0BA9E4;
+        background: #025e80;
         color: #fff;
         text-decoration: none;
         font-size: 3vw;
