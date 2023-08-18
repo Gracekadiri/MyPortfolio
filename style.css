@@ -233,7 +233,9 @@ nav ul li a:hover::after {
 }
 
 .layer p {
+    margin-top: 2vh;
     color: white;
+    font-size: 1.2vw;
 }
 /*---------------------Dashboard Section----------------------------*/
 /* adding space between both section*/
