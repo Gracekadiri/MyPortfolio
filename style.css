@@ -394,7 +394,7 @@ nav .fa-solid {
     #header {
         width: 100%;
         height: 100vh;
-        background-image: url(Images/MOBILE1.png);
+        background-image: url(Images/MOBILE.png);
 
     }
 
@@ -502,6 +502,9 @@ nav .fa-solid {
     }
     .project h2{
         margin-top: 2vh;
+    }
+    .project p{
+        font-size: 2vw;
     }
     .layer a {
         margin-top: 2vh;
