@@ -417,12 +417,12 @@ nav .fa-solid {
     nav .fa-solid {
         display: block;
         font-size: 5vw;
-        color: white;
+        
     }
 
     /*creating a right banner for the icons*/
     nav ul {
-        background: black;
+        background: ababab;
         position: fixed;
         top: 0;
         right: -25vw;
