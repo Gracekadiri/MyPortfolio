@@ -412,6 +412,31 @@ nav .fa-solid {
         font-size: 8vw;
     }
 
+    /* ... Your other mobile styles ... */
+}
+
+/* ... Your existing CSS ... */
+@media only screen and (max-width: 600px) {
+    #header {
+        width: 100%;
+        height: 100vh;
+        background-image: url(Images/MOBILE.png);
+
+    }
+
+ /*sub header size*/
+    .header-text {
+        margin-top: 100%;
+        font-size: 5vw;
+        top: 1vh;
+        left: 20vw;
+
+    }
+
+    /*header size*/
+    .header-text h1 {
+        font-size: 8vw;
+    }
 
 
     /* sizing the bar and x icons*/
