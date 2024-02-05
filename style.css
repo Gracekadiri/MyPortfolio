@@ -390,27 +390,28 @@ nav .fa-solid {
 }
 
 /*---------------------CCS for Small Screen Section----------------------------*/
-@media only screen and (max-width: 600px) {
+/* ... Your existing CSS ... */
+
+/*---------------------CCS for Android Phones in Portrait Mode----------------------------*/
+@media only screen and (max-width: 600px) and (orientation: portrait) {
     #header {
         width: 100%;
-        height: 100vh;
+        height: 70vh; /* Adjust the height as needed */
         background-image: url(Images/MOBILE.png);
-
     }
 
- /*sub header size*/
     .header-text {
         margin-top: 100%;
         font-size: 5vw;
         top: 1vh;
-        left: 20vw;
-
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
     }
 
-    /*header size*/
     .header-text h1 {
         font-size: 8vw;
     }
+
 
 
     /* sizing the bar and x icons*/
