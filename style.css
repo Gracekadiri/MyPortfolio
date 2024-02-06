@@ -393,6 +393,10 @@ nav .fa-solid {
 /* ... Your existing CSS ... */
 
 /*---------------------CCS for Android Phones in Portrait Mode----------------------------*/
+    /* ... Your other mobile styles ... */
+}
+
+/* ... Your existing CSS ... */
 @media only screen and (max-width: 600px) {
     #header {
         width: 100%;
@@ -400,23 +404,20 @@ nav .fa-solid {
         background-image: url(Images/MOBILE.png);
 
     }
-    
 
-
+ /*sub header size*/
     .header-text {
         margin-top: 100%;
         font-size: 5vw;
         top: 1vh;
-        left: 50%; /* Center horizontally */
-        transform: translateX(-50%); /* Center horizontally */
+        left: 20vw;
+
     }
 
+    /*header size*/
     .header-text h1 {
         font-size: 8vw;
     }
-
-    /* ... Your other mobile styles ... */
-}
 
 /* ... Your existing CSS ... */
 
