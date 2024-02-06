@@ -396,7 +396,15 @@ nav .fa-solid {
     #header {
         width: 100%;
         height: 100vh;
-    
+        background-image: url(Images/SUBIMAGE.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+        
+
+    /*sub header size*/
+    .header-text {
+        margin-top: 100%;
         font-size: 5vw;
         top: 1vh;
         left: 20vw;
