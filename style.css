@@ -11,7 +11,7 @@ html {
 
 /* color of the background*/
 body {
-    background: #080808;
+    background: black;
     color: #fff;
 }
 
@@ -391,13 +391,14 @@ nav .fa-solid {
 }
 
 /*---------------------CCS for Small Screen Section----------------------------*/
-@media only screen and (max-width: 600px) {
+/* ... Your existing CSS ... */
+    @media only screen and (max-width: 600px) {
     #header {
-    width: 100%;
-    height: 100vh;
-    background-image: url(Images/Rename subimage.jpg);
-}
+        width: 100%;
+        height: 100vh;
+        background-image: url(Images/MOBILE.png);
 
+    }
 
     /*sub header size*/
     .header-text {
@@ -420,9 +421,10 @@ nav .fa-solid {
         font-size: 5vw;
     }
 
+
     /*creating a right banner for the icons*/
     nav ul {
-        background:  #025e80;
+        background: #ffffff;
         position: fixed;
         top: 0;
         right: -25vw;
@@ -450,6 +452,7 @@ nav .fa-solid {
         left: 6vw;
         cursor: pointer;
     }
+
 
     /* ------------About section*-----------------*/
 
@@ -539,7 +542,7 @@ nav .fa-solid {
 
     .layer1 a {
         margin-top: 2vh;
-        color:  white;
+        color: #025e80;
         text-decoration: none;
         font-size: 5vw;
         line-height: 7vh;
@@ -570,7 +573,7 @@ nav .fa-solid {
     }
 
     .contact-left p i {
-        color:  #025e80;
+        color: #025e80;
         margin-right: 0.3vw;
         font-size: 4vw;
     }
@@ -588,13 +591,13 @@ nav .fa-solid {
         text-decoration: none;
         font-size: 4vw;
         margin-right: 0.8vw;
-        color: #ababab;
+        color: #025e80;
         display: inline-block;
         transition: transform 0.5s;
     }
 
     .social-icons a:hover {
-        color:  #025e80;
+        color: #025e80;
         transform: translateY(-0.5vh);
     }
 
@@ -602,7 +605,7 @@ nav .fa-solid {
         margin-top: 2vh;
         display: inline-block;
         padding: 1vh 2vh;
-        background:  #025e80;
+        background: #025e80;
         color: #fff;
         text-decoration: none;
         font-size: 3vw;
@@ -641,3 +644,4 @@ nav .fa-solid {
     margin-top: 2vh;
     display: block;
 }
+
