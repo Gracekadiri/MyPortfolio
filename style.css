@@ -495,15 +495,22 @@ nav .fa-solid {
         display: block;
         margin-top: 4vh;
         font-size: 2.5vw;
+      
     }
 
     .project {
         margin-bottom: 4vh;
     }
-
+    .project h2{
+        margin-top: 2vh;
+    }
+    .project p{
+        font-size: 2vw;
+    }
+    
     .layer a {
         margin-top: 2vh;
-        color:  #025e80;
+        color:#025e80;
         text-decoration: none;
         font-size: 2vw;
         line-height: 3vh;
