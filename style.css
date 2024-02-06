@@ -402,21 +402,22 @@ nav .fa-solid {
         width: 100%;
         height: 100vh;
         background-image: url(Images/MOBILE.png);
+
     }
 
-    /* Sub header size */
+ /*sub header size*/
     .header-text {
-        margin-top: 20vh; /* Adjust this value to increase/decrease the margin */
+        margin-top: 100%;
         font-size: 5vw;
         top: 1vh;
         left: 20vw;
+
     }
 
-    /* Header size */
+    /*header size*/
     .header-text h1 {
         font-size: 8vw;
     }
-}
 
 
 
